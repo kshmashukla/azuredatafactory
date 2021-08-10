@@ -1,0 +1,23 @@
+{
+	"name": "SourceFile",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSourceFile",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Testing_HR.txt",
+				"container": "madhursource"
+			},
+			"columnDelimiter": "\t",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

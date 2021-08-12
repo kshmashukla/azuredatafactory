@@ -1,0 +1,9 @@
+{
+	"name": "adf-madhurtrpth",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1f198a88-9416-4ad7-91f0-26c705f67d5d",
+		"tenantId": "11b13316-b5a3-42b3-bc3e-0c03df8fb617"
+	}
+}
